@@ -1,8 +1,8 @@
 {
-  "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
+  "name": "ᗩᗪᑎᗩᑎ-ᛕᎥᑎǤ-MD",
+  "description": "Javascript WhatsApp bot made by 𝐌𝐑 ᗩᗪᑎᗩᑎ-ᛕᎥᑎǤ",
   "logo": "https://ik.imagekit.io/mrshaban/Picsart_25-02-01_22-47-44-239.jpg",
-  "keywords": ["SHABAN-MD"],
+  "keywords": ["ᗩᗪᑎᗩᑎ-ᛕᎥᑎǤ-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "SHABAN-MD︎"
+      "value": "ᗩᗪᑎᗩᑎ-ᛕᎥᑎǤ-MD︎"
     },
     
     "MENU_IMAGE_URL": {
@@ -91,7 +91,7 @@
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "SHABAN-MD V5"
+      "value": "ᗩᗪᑎᗩᑎ-ᛕᎥᑎǤ-MD V5"
 
      },
      
