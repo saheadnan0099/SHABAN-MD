@@ -16,21 +16,9 @@
       "required": true,
       "value": "."
     },
-
-    "OWNER_NUMBER": {
-      "description": "Put Your WhatsApp Number Link Device",
-      "required": true,
-      "value": "923303788282"
-    }, 
     
     "AUTO_CHATBOT": {
       "description": "Make true AutoChatBot On",
-      "required": true,
-      "value": "false"
-    },
-     
-    "ANTI_CALL": {
-      "description": "Make It true If You Want Bot Auto Call Rejected",
       "required": true,
       "value": "false"
     }
