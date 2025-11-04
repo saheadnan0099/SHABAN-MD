@@ -9,7 +9,13 @@
       "description": "Put The Session-ID Here",
       "required": true,
       "value": ""
-    },  
+    },
+
+    "PREFIX": {
+      "description": "Paste Your Bot Prefix Note! Don't Apply Null",
+      "required": true,
+      "value": "."
+    },
 
     "OWNER_NUMBER": {
       "description": "Put Your WhatsApp Number Link Device",
