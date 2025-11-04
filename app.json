@@ -15,12 +15,6 @@
       "description": "Paste Your Bot Prefix Note! Don't Apply Null",
       "required": true,
       "value": "."
-    },
-    
-    "AUTO_CHATBOT": {
-      "description": "Make true AutoChatBot On",
-      "required": true,
-      "value": "false"
     }
   },
   "buildpacks": [
