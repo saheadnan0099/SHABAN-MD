@@ -6,15 +6,9 @@
   "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put The Session-ID Here",
+      "description": " Only Put Your Session-ID Here",
       "required": true,
       "value": ""
-    },
-
-    "PREFIX": {
-      "description": "Paste Your Bot Prefix Note! Don't Apply Null",
-      "required": true,
-      "value": "."
     }
   },
   "buildpacks": [
