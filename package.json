@@ -9,7 +9,7 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "github:Jeliostarr/DEV-Baileys",
+    "@whiskeysockets/baileys": "npm:bandaheali-baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
