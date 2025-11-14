@@ -1,11 +1,12 @@
 {
   "name": "SHABAN-MD",
   "version": "5.0.0",
-  "description": "The Best WhatsApp Bot Created By Mr Shaban",
+  "description": "Created By Mr Shaban",
   "main": "index.js",
-  "engines": {
-    "node": ">=20.x",
-    "npm": ">=10.x"
+  "scripts": {
+    "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
+    "stop": "pm2 stop SHABAN-MD",
+    "restart": "pm2 restart SHABAN-MD"
   },
   "scripts": {
     "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
@@ -13,7 +14,7 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:bandaheali-baileys",
+    "@whiskeysockets/baileys": "6.7.21",
     "@adiwajshing/keyed-db": "latest",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
