@@ -1,4 +1,3 @@
-5590490262621145
 
 
 const staticConfig = {
