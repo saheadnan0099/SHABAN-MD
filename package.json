@@ -9,7 +9,7 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "6.7.19",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "@adiwajshing/keyed-db": "latest",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
