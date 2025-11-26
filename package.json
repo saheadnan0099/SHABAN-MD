@@ -8,11 +8,6 @@
     "stop": "pm2 stop SHABAN-MD",
     "restart": "pm2 restart SHABAN-MD"
   },
-  "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
-    "stop": "pm2 stop SHABAN-MD",
-    "restart": "pm2 restart SHABAN-MD"
-  },
   "dependencies": {
     "@whiskeysockets/baileys": "6.7.21",
     "@adiwajshing/keyed-db": "latest",
