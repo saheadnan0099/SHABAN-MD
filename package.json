@@ -4,9 +4,11 @@
   "description": "Created By Mr Shaban",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name SHABAN-MD",
-    "stop": "pm2 stop SHABAN-MD",
-    "restart": "pm2 restart SHABAN-MD"
+    "start": "node index.js",
+    "dev": "node index.js",
+    "start:pm2": "pm2 start index.js --name SHABAN-MD",
+    "stop:pm2": "pm2 stop SHABAN-MD",
+    "restart:pm2": "pm2 restart SHABAN-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
@@ -15,11 +17,11 @@
     "@vitalets/google-translate-api": "^9.2.1",
     "pino": "^9.7.0",
     "util": "^0.12.5",
-    "express": "~> 3.11.0",
+    "express": "latest",
     "moment-timezone": "^0.6.0",
     "axios": "^1.7.9",
     "crypto-digest-sync": "^1.0.0",
-    "crypto-js": "~> 3.2.1",
+    "crypto-js": "^3.2.1",
     "file_size_url": "1.0.4",
     "fs-extra": "^11.1.0",
     "ffmpeg": "^0.0.4",
