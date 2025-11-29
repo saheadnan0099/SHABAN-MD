@@ -9,8 +9,8 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "engines": {
-    "node": ">=22.0.0 <23",
-    "npm": ">=10.0.0 <11"
+    "node": ">=22.21.1",
+    "npm": ">=10.9.4"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "7.0.0-rc.9",
