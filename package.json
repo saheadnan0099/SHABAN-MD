@@ -9,11 +9,11 @@
     "restart": "pm2 restart SHABAN-MD"
   },
   "engines": {
-    "node": ">=20.x",
-    "npm": ">=10.x"
+    "node": "20.18.0",
+    "npm": "10.9.4"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:@fadzzzslebew/baileys",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.1",
