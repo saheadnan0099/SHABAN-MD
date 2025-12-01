@@ -11,8 +11,10 @@ function cmd(info, func) {
     commands.push(data);
     return data;
 }
+const Stark = cmd;
 module.exports = {
     cmd,
+    Stark,
     AddCommand:cmd,
     Function:cmd,
     Module:cmd,

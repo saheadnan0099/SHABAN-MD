@@ -1,31 +1,16 @@
-FROM node:20-slim
-
-# Install system dependencies (for native modules like sqlite3, ffmpeg etc.)
-RUN apt-get update && apt-get install -y \
-  git \
-  python3 \
-  make \
-  g++ \
-  ffmpeg \
-  && rm -rf /var/lib/apt/lists/*
+FROM node:lts-buster
 
 # Set working directory
 WORKDIR /app
 
-# Copy package files
-COPY package*.json ./
-
-# Install production dependencies
-RUN npm install --omit=dev
-
-# Copy all source code
+# Copy all local files to container
 COPY . .
 
-# Set environment variable for PORT (Render expects this)
-ENV PORT=9090
+# Install dependencies
+RUN npm install && npm install -g pm2
 
-# Expose port
-EXPOSE $PORT
+# Expose the port your app listens on
+EXPOSE 9090
 
-# Use default npm start from package.json
+# Start the app
 CMD ["npm", "start"]
