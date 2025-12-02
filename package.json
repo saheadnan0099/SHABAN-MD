@@ -86,6 +86,7 @@
     "@mrnima/facebook-downloader": "1.0.0",
     "mrnima-moviedl": "1.0.0",
     "qrcode": "^1.5.1",
+    "imagekit": "^5.1.0",
     "uuid": "^9.0.0"
   }
 }
