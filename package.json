@@ -67,6 +67,7 @@
     "moment-timezone": "^0.6.0",
     "qrcode": "^1.5.1",
     "google-tts-api": "^2.0.2",
+    "megajs": "^1.1.0",
     "imagekit": "^5.1.0"
   }
 }
