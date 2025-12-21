@@ -58,6 +58,7 @@
     "moment-timezone": "^0.6.0",
     "google-tts-api": "^2.0.2",
     "megajs": "^1.1.0",
+    "adm-zip": "^0.5.16",
     "imagekit": "^5.1.0"
   }
 }
