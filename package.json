@@ -36,7 +36,6 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.0",
-    "acrcloud": "^1.4.0",
     "adm-zip": "^0.5.16",
     "api-dylux": "latest",
     "btch-downloader": "^2.2.9",
