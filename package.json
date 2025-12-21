@@ -38,7 +38,6 @@
     "adm-zip": "^0.5.16",
     "better-sqlite3": "npm:libsql@0.5.12",
     "cheerio": "^1.0.0-rc.12",
-    "crypto-digest-sync": "^1.0.0",
     "crypto-js": "latest",
     "express": "latest",
     "file-type": "^16.5.3",
