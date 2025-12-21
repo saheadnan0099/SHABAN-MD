@@ -50,7 +50,6 @@
     "javascript-obfuscator": "^4.0.0",
     "jimp": "latest",
     "megajs": "^1.1.0",
-    "mongoose": "^8.0.0",
     "node-cache": "^5.1.1",
     "node-fetch": "^2.6.1",
     "path": "^0.12.7",
