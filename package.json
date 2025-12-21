@@ -36,7 +36,6 @@
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "adm-zip": "^0.5.16",
-    "btch-downloader": "^2.2.9",
     "better-sqlite3": "npm:libsql@0.5.12",
     "cheerio": "^1.0.0-rc.12",
     "crypto-digest-sync": "^1.0.0",
