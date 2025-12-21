@@ -35,7 +35,6 @@
     "axios": "^1.7.9",
     "@adiwajshing/keyed-db": "^0.2.4",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
-    "@vitalets/google-translate-api": "^9.2.0",
     "adm-zip": "^0.5.16",
     "btch-downloader": "^2.2.9",
     "better-sqlite3": "npm:libsql@0.5.12",
