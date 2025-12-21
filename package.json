@@ -44,7 +44,6 @@
     "crypto-js": "latest",
     "dotenv": "^16.0.0",
     "express": "latest",
-    "ffmpeg": "^0.0.4",
     "file-type": "^16.5.3",
     "file_size_url": "1.0.4",
     "fluent-ffmpeg": "^2.1.2",
