@@ -42,7 +42,6 @@
     "crypto-js": "latest",
     "express": "latest",
     "file-type": "^16.5.3",
-    "file_size_url": "1.0.4",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "fs-extra": "^11.1.0",
