@@ -34,6 +34,7 @@
     "@whiskeysockets/baileys": "7.0.0-rc.6",
     "axios": "^1.7.9",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@supabase/supabase-js": "^2.43.4",
     "cheerio": "^1.0.0-rc.12",
     "crypto-js": "latest",
     "express": "latest",
