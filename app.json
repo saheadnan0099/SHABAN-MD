@@ -1,21 +1,22 @@
 {
   "name": "SHABAN-MD",
-  "description": "Javascript WhatsApp bot made by 𝐌𝐑 𝐒𝐇𝐀𝐁𝐀𝐍",
-  "keywords": ["SHABAN-MD"],
-  "success_url": "/",
-  "stack": "container",
+  "description": "Javascript WhatsApp bot made by MR SHABAN",
+  "keywords": ["whatsapp", "bot", "baileys", "shaban-md"],
   "env": {
     "SESSION_ID": {
-      "description": " Only Put Your Session-ID Here",
-      "required": true,
-      "value": ""
+      "description": "Put your Session ID here",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
     }
   },
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+      "url": "heroku/nodejs"
     }
-  ],
+  },
   "stack": "heroku-24"
-  }
-    
+}
