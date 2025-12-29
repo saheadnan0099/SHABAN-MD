@@ -1,21 +1,21 @@
 {
   "name": "SMD",
   "description": "Javascript WhatsApp bot powered by Mr Shaban",
-  "logo": "https://cdn-bandaheali.zone.id/edith/alive.jpg",
   "keywords": ["SHABAN-MD", "WhatsApp Bot", "SMD"],
   "success_url": "/",
-  "stack": "container",
+
+  "stack": "heroku-24",
+
   "env": {
     "SESSION_ID": {
       "description": "Put your Baileys session-id here (Base64).",
-      "required": true,
-      "value": ""
+      "required": true
     }
   },
+
   "buildpacks": [
     {
-      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+      "url": "heroku/nodejs"
     }
-  ],
-  "stack": "heroku-25"
+  ]
 }
