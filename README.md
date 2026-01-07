@@ -157,18 +157,8 @@ jobs:
 </div>
 
 
-<div align="center">
-  <!-- Glowing Header -->
 <p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
-  <a href="https://github.com/MRSHABAN45">
-    <img src="https://github-readme-stats.vercel.app/api?username=MRSHABAN45&show_icons=true&theme=dark&border_color=00ffff&title_color=00ffff&icon_color=00ffff" width="400"/>
-  </a>
-</div>
-<!-- Glowing Header -->
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
+  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%" alt="divider"/>
 </p>
 
 <!-- New Animated Contributors -->
