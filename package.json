@@ -33,7 +33,6 @@
     "file-type": "^16.5.3",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
-    "javascript-obfuscator": "^4.0.0",
     "jimp": "latest",
     "node-cache": "^5.1.1",
     "node-fetch": "^2.6.1",
